@@ -1,0 +1,35 @@
+---
+title: "Statistical Models and Applications"
+author: "Rebecca Hadi"
+date: "11/11/2020"
+output: pdf_document
+---
+
+
+# Discrete Distributions 
+
+## Discrete Uniform Distribution
+Models outcomes that have equality probability 
+$f(x) = \frac{1}{N}$
+$E[X] = \frac{N+1}{2}$
+$Var[X] = \frac{(N+1)(N-1)}{12}$
+X = 
+N = Total Population
+
+
+## Binomial 
+Models the number of successes in a sample of size n drawn with replacement from a population of size N. 
+
+$P(X=k) = {n \choose k}p^k(1-p)^{n-k}$
+$E[X] = np$
+$Var[X] = np(1-p)$
+X = Number of people who spent more than $100 on a trip
+N = Total customer base 
+n = Size of the sample 
+
+Key assumptions: 
+* Independent observations
+* Samples with replacement (if without replacement, N must be sufficiently larger than n)
+
+
+
